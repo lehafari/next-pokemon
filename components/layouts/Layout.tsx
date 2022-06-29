@@ -28,7 +28,7 @@ export const Layout: FC<Props> = ({ children, title }) => {
         <meta property="og:site_name" content="Pokemon App" />
         <meta property="og:locale" content="es_ES" />
         <meta property="og:locale:alternate" content="en_US" />
-        // meta para facebook
+
         <meta property="fb:app_id" content="1234" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -38,7 +38,7 @@ export const Layout: FC<Props> = ({ children, title }) => {
           property="og:image:secure_url"
           content={`${origin}/img/banner.png`}
         />
-        // meta para twitter
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@plainAlejandro" />
         <meta name="twitter:creator" content="@plainAlejandro" />
