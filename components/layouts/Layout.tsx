@@ -13,8 +13,8 @@ export const Layout: FC<Props> = ({ children, title }) => {
       <Head>
         <title>{title || 'Pokemon App'}</title>
         <meta name="author" content="Alejandro Medina" />
-        <meta name="description" content="informacion sobre el pokemon XXX" />
-        <meta name="keywords" content="pokemon, XXXX" />
+        <meta name="description" content="Escoge que pokemon te vas a tatuar" />
+        <meta name="keywords" content="pokemon" />
       </Head>
 
       <Navbar />
